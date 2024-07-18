@@ -24,14 +24,13 @@
   text {
     font-family: "Manrope", sans-serif;
     font-size: 14px;
-    fill: #e7e6e4;;
+    fill: #e7e6e4;
     pointer-events: none;
   }
 
   a:focus text,
   rect:hover + text {
     fill: #e7e6e4;;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     text-decoration: underline 1px solid #e7e6e4;;
     text-underline-offset: 5px;
   }
