@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      lang="en-GB"
      aria-labelledby="title"
-     viewBox="0 0 200 24">
+     viewBox="0 0 120 24">
 
   <title id="title">Contact us</title>
 
@@ -10,30 +10,29 @@
   <style type="text/css"><![CDATA[
 
   rect {
-    width: 200px;
+    width: 120px;
     height: 24px;
-    fill: rgb(255, 255, 255);
+    fill: rgba(0,0,0,0);
   }
 
   a:focus rect,
   rect:hover {
     rx: 4px;
     ry: 4px;
-    fill: rgb(0, 0, 255);
   }
 
   text {
-    font-size: 16px;
-    fill: rgb(0, 0, 255);
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    fill: #e7e6e4;;
     pointer-events: none;
   }
 
   a:focus text,
   rect:hover + text {
-    fill: rgb(255, 255, 255);
-    font-weight: 900;
+    fill: #e7e6e4;;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-    text-decoration: underline 1px solid rgb(255, 255, 255);
+    text-decoration: underline 1px solid #e7e6e4;;
     text-underline-offset: 5px;
   }
 
