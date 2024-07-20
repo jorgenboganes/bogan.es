@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      lang="en-GB"
      aria-labelledby="title"
-     viewBox="0 0 58 20">
+     viewBox="0 0 120 24">
 
   <title id="title">Contact us</title>
 
@@ -10,8 +10,8 @@
   <style type="text/css"><![CDATA[
 
   rect {
-    width: 58px;
-    height: 20px;
+    width: 120px;
+    height: 24px;
     fill: rgba(0,0,0,0);
   }
 
@@ -23,15 +23,15 @@
 
   text {
     font-family: "Manrope", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     fill: #e7e6e4;
     pointer-events: none;
   }
 
   a:focus text,
   rect:hover + text {
-    fill: #e7e6e4;
-    text-decoration: underline 1px solid #e7e6e4;
+    fill: #e7e6e4;;
+    text-decoration: underline 1px solid #e7e6e4;;
     text-underline-offset: 5px;
   }
 
@@ -41,7 +41,7 @@
 
   <a href="mailto:jorgen@bogan.es" aria-label="Contact us">
     <rect />
-    <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle">Contact</text>
+    <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle">jorgen@bogan.es</text>
   </a>
 
 </svg>
