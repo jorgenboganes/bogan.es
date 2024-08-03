@@ -112,7 +112,7 @@ section {
 }
 @media (max-width: 600px) {
   button {
-    background-color: white;
+    background-color: #e7e6e4;
     border: 0;
     color: black;
     border-radius: 10px;
@@ -124,7 +124,7 @@ section {
     font-size: 18px;
   }
   button:hover {
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(183, 183, 183);
   }
 
   .button-inner {
@@ -138,7 +138,7 @@ section {
 
 @media (min-width: 600px) {
   button {
-    background-color: white;
+    background-color: #e7e6e4;
     border: 0;
     color: black;
     border-radius: 10px;
@@ -151,7 +151,7 @@ section {
     font-size: 24px;
   }
   button:hover {
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(183, 183, 183);
   }
   .button-inner {
     padding: 1rem;
@@ -191,7 +191,7 @@ header {
   top: 0; /* Align it to the top */
   left: 0; /* Align it to the left */
   width: 100%; /* Full width */
-  color: #fff; /* Text color */
+  color: #e7e6e4;
   padding-top: 1rem;
   text-align: center; /* Center the text */
   z-index: 1000; /* Ensure it stays above other content */
