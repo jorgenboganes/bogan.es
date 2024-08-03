@@ -25,9 +25,14 @@ button {
 }
 h1 {
   margin: 0;
+  font-weight: 500;
+  font-size: 20px;
   margin-bottom: 0.5rem;
+  font-family: "Playfair Display", serif;
 }
 p {
   margin: 0;
   margin-top: 0.25rem;
+  font-size: 14px;
+  font-family: "IBM Plex Sans", sans-serif;
 }
