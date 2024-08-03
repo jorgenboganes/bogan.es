@@ -1,13 +1,44 @@
 @font-face {
-  font-family: "Manrope";
+  font-family: "IBM Plex Sans";
+  font-weight: 400; /* Adjust weight if needed */
   font-style: normal;
-  font-weight: 400;
-  src: url("/fonts/manrope/Manrope-Regular.ttf") format("ttf");
+  src: url("/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Manrope";
+  font-family: "IBM Plex Sans";
+  font-weight: 500; /* Medium weight */
   font-style: normal;
-  font-weight: 800;
-  src: url("/fonts/manrope/Manrope-Bold.ttf") format("ttf");
+  src: url("/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-weight: 600; /* Semi-Bold weight */
+  font-style: normal;
+  src: url("/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-weight: 400; /* Regular */
+  font-style: normal;
+  src: url("/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-weight: 500; /* Medium */
+  font-style: normal;
+  src: url("/fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-weight: 700; /* Bold */
+  font-style: normal;
+  src: url("/fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf")
+    format("truetype");
 }
